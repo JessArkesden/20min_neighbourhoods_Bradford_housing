@@ -84,7 +84,7 @@ len(Bradford_OA_lookup)
 
 
 
-    1575
+1575
 
 
 
@@ -101,8 +101,9 @@ print(len(Bradford_OA_polygons))
 print(len(Bradford_OA_polygons) == len(Bradford_OA_lookup))
 ```
 
-    1575
-    True
+1575
+
+True
     
 
 
@@ -118,8 +119,9 @@ print(len(Bradford_OA_PWC))
 print(len(Bradford_OA_PWC) == len(Bradford_OA_lookup))
 ```
 
-    1575
-    True
+1575
+
+True
     
 
 
@@ -197,7 +199,7 @@ len(EPC_unique)
 
 
 
-    157255
+157255
 
 
 
@@ -216,22 +218,6 @@ UPRNs.head()
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -286,7 +272,6 @@ UPRNs.head()
     </tr>
   </tbody>
 </table>
-</div>
 
 
 
@@ -325,22 +310,6 @@ Matched_final.head()
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -389,7 +358,7 @@ Matched_final.head()
     </tr>
   </tbody>
 </table>
-</div>
+
 
 
 
@@ -401,7 +370,7 @@ len(Matched_final)
 
 
 
-    157252
+157252
 
 
 
@@ -414,7 +383,7 @@ len(Matched_final) == len(EPC_unique)
 
 
 
-    False
+False
 
 
 
@@ -427,7 +396,7 @@ len(Matched_final) - len(EPC_unique)
 
 
 
-    -3
+-3
 
 
 
@@ -488,22 +457,6 @@ joined
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -619,7 +572,7 @@ joined
   </tbody>
 </table>
 <p>3703801 rows × 6 columns</p>
-</div>
+
 
 
 
@@ -639,22 +592,6 @@ agg_df
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -722,7 +659,7 @@ agg_df
   </tbody>
 </table>
 <p>1575 rows × 2 columns</p>
-</div>
+
 
 
 
@@ -744,21 +681,6 @@ for_choropleth
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -838,7 +760,7 @@ for_choropleth
   </tbody>
 </table>
 <p>1575 rows × 3 columns</p>
-</div>
+
 
 
 
