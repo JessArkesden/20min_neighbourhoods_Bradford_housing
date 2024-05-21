@@ -84,7 +84,7 @@ len(Bradford_OA_lookup)
 
 
 
-    1575
+1575
 
 
 
@@ -101,8 +101,9 @@ print(len(Bradford_OA_polygons))
 print(len(Bradford_OA_polygons) == len(Bradford_OA_lookup))
 ```
 
-    1575
-    True
+1575
+
+True
     
 
 
@@ -118,8 +119,9 @@ print(len(Bradford_OA_PWC))
 print(len(Bradford_OA_PWC) == len(Bradford_OA_lookup))
 ```
 
-    1575
-    True
+1575
+
+True
     
 
 
@@ -197,7 +199,7 @@ len(EPC_unique)
 
 
 
-    157255
+157255
 
 
 
@@ -216,22 +218,6 @@ UPRNs.head()
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -286,7 +272,6 @@ UPRNs.head()
     </tr>
   </tbody>
 </table>
-</div>
 
 
 
